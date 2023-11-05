@@ -403,15 +403,21 @@ body {
   gap: 1rem;
   margin-top: 3rem;
   z-index: 1;
-  text-decoration: none
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
 
 
 .boton1-contacto {
+  text-align: center;
+  vertical-align: middle;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  text-decoration: none
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
 
 
@@ -426,13 +432,27 @@ body {
   font-size: 1rem;
   font-weight: 400;
   border-radius: 28px;
+  z-index: 2;
+}
+
+
+.boton1-contacto input {
+  width: 0.01px;
+  height: auto;
+  border: none;
+  background-color: #9b0505;
+  z-index: -20;
 }
 
 
 .boton2-contacto {
+  text-align: center;
+  vertical-align: middle;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  border: none;
+  outline: none;
 }
 
 
@@ -450,6 +470,15 @@ body {
   border-style: solid;
   border-color: #9b0505;
   border-radius: 28px;
+  z-index: 3;
+}
+
+
+.boton2-contacto input {
+  width: 0.01px;
+  height: auto;
+  border: none;
+  background-color: #000000;
 }
 
 

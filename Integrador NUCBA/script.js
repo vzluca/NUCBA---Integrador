@@ -6,3 +6,13 @@ window.addEventListener("scroll", function() {
       navbar.classList.remove("scrolled");
     }
   });
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const menuIcon = document.querySelector('.menu-icon');
+    const navUl = document.querySelector('#navbar ul');
+
+    menuIcon.addEventListener('click', function () {
+        navUl.classList.toggle('menu-open');
+    });
+});

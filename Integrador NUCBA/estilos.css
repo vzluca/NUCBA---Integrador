@@ -207,7 +207,7 @@ body {
   flex-direction: row;
   text-align: center;
   justify-content: space-between;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-left: 15rem;
   margin-right: 15rem;
 }
@@ -217,7 +217,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
   color: #ffffff;
   font-size: 1.4rem;
   padding-right: 1rem;
@@ -229,10 +229,11 @@ body {
 
 
 .card img {
+  z-index:-10;
   height: auto;
   width: 10rem;
-  height: auto;
-  filter: brightness(100);
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -332,31 +333,9 @@ body {
 }
 
 
-.contacto {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  gap: 2rem;
-  background-color: #f0f0f0;
-}
-
-
-.nombre-contacto p {
-  font-size: 1.5rem;
-  font-weight: 900;
-  padding-top: 3rem;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-
 .contacto-info {
   display: flex;
   flex-direction: column;
-  text-align: start;
-  width: 50%;
-  padding-left: 6.5rem;
   padding-top: 1rem;
 }
 
@@ -375,7 +354,7 @@ body {
 
 
 .row-items img {
-  width: 2rem;
+  width: 3rem;
   height: auto;
   padding-right: 1rem;
   margin-bottom: 0.2rem;
@@ -384,61 +363,15 @@ body {
 
 .row-items label {
   margin-top: 0.4rem;
+  font-size: 1.1rem;
+  vertical-align: middle;
 }
 
-
-.contacto {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 50%;
-  gap: 2rem;
-  background-color: #f0f0f0;
-}
-
-.contacto-info h2{
-  font-size: 1.5rem;
-  font-weight: 900;
-  padding-top: 3rem;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-.contacto-info {
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-  width: 50%;
-  padding-left: 6.5rem;
-  padding-top: 1rem;
-}
-
-.contacto-info p {
-  margin: 0;
-  padding: 0;
-  font-size: 2rem;
-}
-
-.row-items {
-  display: flex;
-  margin-top: 1rem;
-}
-
-.row-items img {
-  width: 2rem;
-  height: auto;
-  padding-right: 1rem;
-  margin-bottom: 0.2rem;
-}
-
-.row-items label {
-  margin-top: 0.4rem;
-}
 
 .redes-contacto img {
-  width: 8%;
+  width: 4rem;
   height: auto;
-  padding-top: 5rem;
+  padding-top: 3rem;
   padding-right: 1.5rem;
 }
 
@@ -459,6 +392,7 @@ display: flex;
 justify-content: center;
 background-color: #9b0505;
 }
+
 
 .footer img {
 height: 3rem;

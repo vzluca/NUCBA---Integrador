@@ -21,38 +21,43 @@ body {
 
 .navbar {
     width: 100%;
-    padding: 1.2rem;
-    padding-left: 27rem;
+    padding: 0.8rem;
     position: fixed;
     background-color: transparent;
     color: #fff;
     transition: background-color 0.2s;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } 
 
 
     .navbar.scrolled {
-    background-color: #000000;
+    background-color: #9b0505;
+    .logo {
+      filter: brightness(100);
+      }
     }
 
 
-    .logo {
-        align-content: start;
-        height: auto;
-        width: 10rem;
+    nav .logo {
         margin: 0;
         padding: 0;
-    } 
+        margin-right: 3rem;
+
+    }
 
 
     .navbar ul {
         list-style: none;
         padding: 0;
         margin: 0;
+        margin-left: 45rem;
       }
       
 
       .navbar li {
+        flex-direction: row;
         display: inline;
       }
 
@@ -80,26 +85,29 @@ body {
       }
 
 
+.musica {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+
 .portada {
   display: flex;
-  flex-direction: row;
-    height: 35rem;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    color: #fff
+  align-items: center;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 7rem;
 }
 
-
-.portada-foto {
-  margin-top: 6rem;
-  margin-left: 8rem;
-  width: 40rem;
-}
 
 .hero {
-  display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 50%;
 }
 
 
@@ -109,37 +117,63 @@ body {
   font-weight: 100;
   color: #9b0505;
   display: flex;
-  padding-top: 11rem;
+  padding-top: 7rem;
   margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+
+.portada-texto h2 {
+  font-size: 2.3rem;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 
 .portada-texto h3 {
-  justify-content: space-between;
-  flex-direction: row;
-  font-weight: 400;
-  width: 90%;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.portada-foto {
+  justify-content: center;
+  border-bottom: #000000;
+  border: thin;
+  width: 40%;
+  height: auto;
+  margin-top: 5rem;
 }
 
 
 .boton-hero {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 
 .boton-hero a {
   color: #ffffff;
-  background: #9b0505;
+  background-color: #9b0505;
   text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 400;
-  border-radius: 25px;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 28px;
 }
 
 
 .about {
-  background-image: url(./img/banner.jpg);
+  background-image: url(./img/banner.jpeg);
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 1.1rem;
@@ -149,8 +183,8 @@ body {
   margin-top: 1rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  padding-left: 12rem;
-  padding-right: 12rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
   justify-content: center;
 }
 
@@ -173,9 +207,9 @@ body {
   flex-direction: row;
   text-align: center;
   justify-content: space-between;
-  width: 70%;
-  margin-left: 12rem;
-  margin-top: 4rem;
+  margin-top: 3rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
 }
 
 
@@ -185,25 +219,27 @@ body {
   text-align: center;
   justify-content: space-between;
   color: #ffffff;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   padding-right: 1rem;
   padding-left: 1rem;
   padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
   width: 9rem;
-  height: 9rem;
+  height: 20rem;
 }
 
 
 .card img {
   height: auto;
-  width: 2rem;
+  width: 10rem;
+  height: auto;
+  filter: brightness(100);
 }
 
 
 .entradas {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin-left: 10rem;
   margin-right: 10rem;
 }
@@ -214,17 +250,23 @@ body {
   border-radius: 25px;
   color: #000000;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+  padding: 2rem;
   padding-bottom: 0;
+  width: 25rem;
+  height: 25rem;
 }
 
 .entrada1 h3 {
   font-size: 2rem;
   margin: 0;
   padding: 0;
+  padding-top: 1rem;
 }
 
 
@@ -258,8 +300,13 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+  padding: 2rem;
   padding-bottom: 0;
+  width: 25rem;
+  height: 25rem;
 }
 
 
@@ -273,5 +320,150 @@ body {
 .entrada2 h4 {
   font-size: 1.5rem;
   margin: 0;
-  padding-bottom: 0;
+  padding: 0;
 }
+
+
+.entrada2 h5 {
+  font-size: 1.1rem;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+
+.contacto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  background-color: #f0f0f0;
+}
+
+
+.nombre-contacto p {
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-top: 3rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+
+.contacto-info {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 50%;
+  padding-left: 6.5rem;
+  padding-top: 1rem;
+}
+
+
+.contacto-info h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+
+
+.row-items {
+  display: flex;
+  margin-top: 1rem;
+}
+
+
+.row-items img {
+  width: 2rem;
+  height: auto;
+  padding-right: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+
+.row-items label {
+  margin-top: 0.4rem;
+}
+
+
+.contacto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  gap: 2rem;
+  background-color: #f0f0f0;
+}
+
+.contacto-info h2{
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-top: 3rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.contacto-info {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 50%;
+  padding-left: 6.5rem;
+  padding-top: 1rem;
+}
+
+.contacto-info p {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+
+.row-items {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.row-items img {
+  width: 2rem;
+  height: auto;
+  padding-right: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.row-items label {
+  margin-top: 0.4rem;
+}
+
+.redes-contacto img {
+  width: 8%;
+  height: auto;
+  padding-top: 5rem;
+  padding-right: 1.5rem;
+}
+
+
+.gif-contacto img {
+  margin-top: 3rem;
+  width: 50%;
+  height: auto;
+  padding-top: 5rem;
+  padding-right: 1.5rem;
+}
+
+
+.footer {
+padding-top: 0.2rem;
+padding-bottom: 0.2rem;
+display: flex;
+justify-content: center;
+background-color: #9b0505;
+}
+
+.footer img {
+height: 3rem;
+width: auto;
+filter: brightness(0);
+}
+
+

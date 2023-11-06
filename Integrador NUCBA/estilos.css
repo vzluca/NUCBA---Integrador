@@ -230,6 +230,11 @@ body {
 }
 
 
+.card h4 {
+  margin-left: 1rem;
+}
+
+
 .card img {
   z-index:-10;
   height: auto;

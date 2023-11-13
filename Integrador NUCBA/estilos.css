@@ -9,8 +9,7 @@
 
 body {
   background-color: #000000;
-  background-image: background-color: #000000;
-  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23171717' fill-opacity='0.08'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23151515' fill-opacity='0.37'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     color: #ffffff;
     margin: 0%;
     padding: 0%;
@@ -341,6 +340,7 @@ body {
 
 
 .contacto {
+  background-color: #000000;
   margin-top: 3rem;
   display: flex;
   flex-direction: row;
@@ -391,14 +391,20 @@ body {
   width: 4rem;
   height: auto;
   padding-top: 3rem;
-  padding-right: 1.5rem;
+  padding-right: 3rem;
+}
+
+.redes-contacto{
+  margin-bottom: 1rem;
 }
 
 
 .gif-contacto img {
-  justify-content: center;
+  justify-content: end;
   float: right;
-  width: 50%;
+  margin-right: 0;
+  padding-right: 0;
+  justify-content: end;
 }
 
 
@@ -430,7 +436,7 @@ body {
   color: #ffffff;
   background-color: #9b0505;
   text-decoration: none;
-  padding-left: 1.8rem;
+  padding-left: 1.1rem;
   padding-right: 1.8rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -465,7 +471,7 @@ body {
   color: #ffffff;
   background-color: none;
   text-decoration: none;
-  padding-left: 1.8rem;
+  padding-left: 1.1rem;
   padding-right: 1.8rem;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;

@@ -340,7 +340,7 @@ body {
 
 
 .contacto {
-  background-color: #000000;
+  background-color: #050505;
   margin-top: 3rem;
   display: flex;
   flex-direction: row;
@@ -355,6 +355,7 @@ body {
   padding-top: 1rem;
   margin-left: 8rem;
   margin-right: 5rem;
+  width: 30%;
 }
 
 
@@ -388,7 +389,7 @@ body {
 
 
 .redes-contacto img {
-  width: 4rem;
+  width: 3rem;
   height: auto;
   padding-top: 3rem;
   padding-right: 2.5rem;
@@ -399,12 +400,9 @@ body {
 }
 
 
-.gif-contacto img {
+.gif-contacto {
   justify-content: end;
   float: right;
-  margin-right: 0;
-  padding-right: 0;
-  justify-content: end;
 }
 
 
@@ -489,7 +487,7 @@ body {
   width: 0.01px;
   height: auto;
   border: none;
-  background-color: #000000;
+  background-color: #050505;
 }
 
 

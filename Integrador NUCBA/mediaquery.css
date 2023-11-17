@@ -1,14 +1,12 @@
-
- /* -------------------------------------------------------------------------------------- TABLET */
- @media (min-width: 768px) and (max-width: 1000px) {
-
-  
+/* -------------------------------------------------------------------------------------- TABLET */
+@media (min-width: 768px) and (max-width: 1000px) {
   body {
     background-color: #000000;
     background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23151515' fill-opacity='0.37'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
 
-  .main { /* ---------------------------------------------------------------------------- Main */
+  .main {
+    /* ---------------------------------------------------------------------------- Main */
     display: block;
     flex-direction: row;
     align-items: center;
@@ -27,8 +25,8 @@
     margin-top: 5rem;
   }
 
-
-  .portada { /* ---------------------------------------------------------------------------- Hero */
+  .portada {
+    /* ---------------------------------------------------------------------------- Hero */
     display: block;
     flex-direction: row;
     align-items: center;
@@ -38,7 +36,7 @@
     padding: 1rem;
     margin: 0;
   }
-    
+
   .portada-texto {
     display: block;
     flex-direction: row;
@@ -57,7 +55,6 @@
     height: auto;
     padding: 0%;
     margin-top: 20%;
-
   }
 
   .boton-hero {
@@ -67,9 +64,6 @@
     margin: 0%;
     margin-bottom: 3rem;
   }
-
-
-
 
   /* ------------------------------------------------------------------------------ Navbar */
   .navbar nav ul {
@@ -86,60 +80,50 @@
     left: 0;
     z-index: 999;
     margin: 0%;
-}
+  }
 
-.navbar nav ul li {
+  .navbar nav ul li {
     padding: 1rem 0;
-}
+  }
 
-.navbar nav ul li a {
+  .navbar nav ul li a {
     color: #000000;
     text-decoration: none;
     font-size: 1.2rem;
     display: block;
-}
+  }
 
-.burger-icon {
-    display: none;
-    cursor: pointer;
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
-    z-index: 1000;
-}
-
-.burger-icon .line {
+  .burger-icon .line {
     width: 2rem;
     height: 0.25rem;
     background-color: #ffffff;
     margin: 5px;
-}
+  }
 
-.burger-icon {
-   display: block;
-   margin-right: 2rem;
-}
+  .burger-icon {
+    display: block;
+    margin-right: 2rem;
+  }
 
-.navbar nav ul {
-   position: static;
-   display: none;
-}
+  .navbar nav ul {
+    position: static;
+    display: none;
+  }
 
-.logo {
-  justify-content: center;
-  width: 100%;
-}
+  .logo {
+    justify-content: center;
+    width: 100%;
+  }
 
-
-  .cards { /* ------------------------------------------------------------------- Cards */
+  .cards {
+    /* ------------------------------------------------------------------- Cards */
     display: block;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
     padding-bottom: 3rem;
-    }
-
+  }
 
   .cards-titulo {
     display: block;
@@ -148,9 +132,8 @@
     justify-content: center;
     width: 100%;
     padding-bottom: 3rem;
-    }  
+  }
 
-  
   .entradas {
     display: block;
     flex-direction: row;
@@ -158,294 +141,251 @@
     justify-content: center;
     width: 100%;
     padding-bottom: 3rem;
-    }
+  }
 
-
-
-  .contacto { /* ------------------------------------------------------------------ Contacto */
+  .contacto {
+    /* ------------------------------------------------------------------ Contacto */
     display: block;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
- }
+  }
 
- .botones-contacto {
-  display: block;
+  .botones-contacto {
+    display: block;
     flex-direction: row;
     align-items: center;
     align-content: center;
     text-align: center;
     justify-content: center;
-    width: 75%;;
-}
-
-.row-items {
-  display: flex;
-  justify-content: center;
     width: 75%;
-}
-
-.redes-contacto img {
-  margin-bottom: 4rem;
-  justify-content: center;
-  align-self: center;
-  width: 8%;
-}
-
-.redes-contacto {
-  justify-content: center;
-  align-self: center;
-  width: 75%;
-}
-
-.gif-contacto {
-  display: block;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 6rem;
-    margin-bottom: 5rem;
-}
-
-
-
-
-.footer { /* -------------------------------------------------------------------------- Footer */
-  display: block;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-}
-
-} 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* -------------------------------------------------------------------------------------- CELULAR */
-
-  @media (min-width: 125px) and (max-width: 767px) {
-
-    body {
-      background-color: #000000;
-      background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23151515' fill-opacity='0.37'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    }
-  
-    .main { /* ---------------------------------------------------------------------------- Main */
-      display: block;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      width: 100%;
-      padding-top: 2rem;
-    }
-  
-    .musica {
-      position: fixed;
-      height: 1rem;
-      width: auto;
-      bottom: 1rem;
-      left: 1rem;
-    }
-  
-  
-    .portada { /* ---------------------------------------------------------------------------- Hero */
-      display: block;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      width: 100%;
-      padding: 1rem;
-      margin: 0;
-    }
-      
-    .portada-texto {
-      display: block;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      margin: 2rem;
-      width: 88%;
-    }
-  
-    .portada-foto {
-      justify-content: center;
-      width: 95%;
-    }
-  
-    #boton-hero {
-      justify-content: center;
-      width: 100%;
-      padding: 0%;
-    }
-  
-  
-    /* ------------------------------------------------------------------- Cards */
-    .navbar nav ul {
-      display: none;
-      position: absolute;
-      list-style: none;
-      text-align: center;
-      width: 100%;
-      padding: 0;
-      background-color: #f2f2f2;
-      top: 4rem;
-      left: 0;
-      z-index: 999;
   }
-  
-  .navbar nav ul li {
-      padding: 1rem 0;
-  }
-  
-  .navbar nav ul li a {
-      color: #000000;
-      text-decoration: none;
-      font-size: 1.2rem;
-      display: block;
-  }
-  
-  .burger-icon {
-      display: none;
-      cursor: pointer;
-      position: absolute;
-      top: 2rem;
-      right: 2rem;
-      z-index: 1000;
-  }
-  
-  .burger-icon .line {
-      width: 25px;
-      height: 3px;
-      background-color: #ffffff;
-      margin: 5px;
-  }
-  
-  .burger-icon {
-     display: block;
-     margin-right: 2rem;
-  }
-  
-  .navbar nav ul {
-     position: static;
-     display: none;
-  }
-    
-  
-  
-    .cards { /* ------------------------------------------------------------------- Cards */
-      display: block;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      padding-bottom: 3rem;
-      }
-  
-  
-    .cards-titulo {
-      display: block;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      padding-bottom: 3rem;
-      }  
-  
-    
-    .entradas {
-      display: block;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      padding-bottom: 3rem;
-      }
-  
-  
-  
-    .contacto { /* ------------------------------------------------------------------ Contacto */
-      display: block;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-   }
-  
-   .botones-contacto {
-    display: block;
-      flex-direction: row;
-      align-items: center;
-      align-content: center;
-      text-align: center;
-      justify-content: center;
-      width: 75%;;
-  }
-  
+
   .row-items {
     display: flex;
     justify-content: center;
-      width: 75%;
-      vertical-align: middle;
+    width: 75%;
   }
-  
+
   .redes-contacto img {
     margin-bottom: 4rem;
     justify-content: center;
     align-self: center;
     width: 8%;
   }
-  
+
   .redes-contacto {
     justify-content: center;
     align-self: center;
     width: 75%;
   }
-  
+
   .gif-contacto {
     display: block;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      margin-top: 6rem;
-      margin-bottom: 5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
   }
-  
-  
-  
-  
-  .footer { /* -------------------------------------------------------------------------- Footer */
+
+  .footer {
+    /* -------------------------------------------------------------------------- Footer */
     display: block;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
   }
-  
-  
-  
-  
-  
-  } 
-    
-  
-  
-  
+}
+
+/* -------------------------------------------------------------------------------------- CELULAR */
+
+@media (min-width: 125px) and (max-width: 767px) {
+  body {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23151515' fill-opacity='0.37'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .main {
+    /* ---------------------------------------------------------------------------- Main */
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 2rem;
+  }
+
+  .musica {
+    position: fixed;
+    height: 1rem;
+    width: auto;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .portada {
+    /* ---------------------------------------------------------------------------- Hero */
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .portada-texto {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    width: 88%;
+  }
+
+  .portada-foto {
+    justify-content: center;
+    width: 95%;
+  }
+
+  #boton-hero {
+    justify-content: center;
+    width: 100%;
+    padding: 0%;
+  }
+
+  /* ------------------------------------------------------------------- Cards */
+  .navbar nav ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    background-color: #f2f2f2;
+    top: 4rem;
+    left: 0;
+    z-index: 999;
+  }
+
+  .navbar nav ul li {
+    padding: 1rem 0;
+  }
+
+  .navbar nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+  }
+
+  .burger-icon .line {
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px;
+  }
+
+  .burger-icon {
+    display: block;
+  }
+
+  .navbar nav ul {
+    position: static;
+    display: none;
+  }
+
+  .cards {
+    /* ------------------------------------------------------------------- Cards */
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+
+  .cards-titulo {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+
+  .entradas {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+
+  .contacto {
+    /* ------------------------------------------------------------------ Contacto */
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .botones-contacto {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    width: 75%;
+  }
+
+  .row-items {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    vertical-align: middle;
+  }
+
+  .redes-contacto img {
+    margin-bottom: 4rem;
+    justify-content: center;
+    align-self: center;
+    width: 8%;
+  }
+
+  .redes-contacto {
+    justify-content: center;
+    align-self: center;
+    width: 75%;
+  }
+
+  .gif-contacto {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+  }
+
+  .footer {
+    /* -------------------------------------------------------------------------- Footer */
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+}
